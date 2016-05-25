@@ -1,4 +1,3 @@
-# Lyrics Crawler
 # Simple script that search for lyrics on 'songlyrics.com'
 
 # Kivy modules
@@ -90,7 +89,7 @@ class Clyrics_s1(Screen):
 		song_name = self.song_input.text
 		artist_name = artist_name.replace(' ', '-').lower()
 		song_name = song_name.replace(' ', '-').lower()
-		# Crawl for lyrics
+		# Collect lyrics
 		try:
 			page = 'http://www.songlyrics.com/{}/{}-lyrics/'.format(artist_name, song_name)
 			tree = html.parse(page)
