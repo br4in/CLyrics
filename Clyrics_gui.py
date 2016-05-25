@@ -1,4 +1,4 @@
-# Simple script that search for lyrics on 'songlyrics.com'
+# Simple Kivi script that search for lyrics on 'songlyrics.com'
 
 # Kivy modules
 from kivy.app import App
